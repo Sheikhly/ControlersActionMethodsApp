@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Currency\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Currency\" />
+  </ItemGroup>
 </Project>
