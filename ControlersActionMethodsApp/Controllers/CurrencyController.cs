@@ -13,17 +13,26 @@ namespace ControlersActionMethodsApp.Controllers
             return View();
         }
 
+        public IActionResult Price(string name, string price)
+        {
+            
+            ViewBag.name = name;
+
+            ViewBag.price = price;
+
+            return View();
+        }
 
         public IActionResult BTC()
         {
             return View();
         }
 
-
         public IActionResult ETH()
         {
             return View();
         }
+       
         
 
 
